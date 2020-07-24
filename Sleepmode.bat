@@ -1,0 +1,6 @@
+rem @echo off
+echo Setting working dir...
+cd %userprofile%\Desktop\Sleepmode
+
+echo Starting sleepmode.ps1...
+powershell.exe -ExecutionPolicy Bypass -Command ".\Sleepmode.ps1"
